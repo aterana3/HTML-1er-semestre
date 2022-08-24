@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="th">
+        <div class="logotype">
+            <a href="#" class="logo">
+              <img src="../assets/LOGO-WEB-AZUL.png" alt="">
+            </a>
+        </div>
+        <nav class="menu-navegacion">
+            <a class="nav" href="../index.html">Inicio</a>
+            <a class="nav" href="./ventas.html">Ventas</a>
+            <a class="nav" href="./mayor.html">Mayor</a>
+            <a class="nav" href="./semanas.html">Dia semana</a>
+            <a class="nav" href="./bisiesto.html">Año bisiesto</a>
+            <a class="nav" href="./presentar.html">Presentar numeros</a>
+            <a class="nav" href="./sumarpares.html">Sumar pares</a>
+            <a class="nav" href="./sumarcontar.html">Sumar y contar</a>
+            <a class="nav" href="./divisores.html">Divisores</a>
+            <a class="nav" href="./perfecto.html">Perfecto</a>
+        </nav>
+    </header>
+    <main class="main-wrapper">
+        <h1 class="title">Venta de producto</h1>
+        <div class="wrapper-content">
+            <div class="ventas-content">
+                <form action="../index.html">
+                    <div class="grupo">
+                        <label>Costo</label>
+                        <input type="text" id="costo">
+                    </div>
+                    <div class="grupo">
+                        <label>Descuento</label>
+                        <input type="text" id="descuento">
+                    </div>
+                    <div class="grupo">
+                        <label>Iva (12%)</label>
+                        <input type="checkbox" id="Iva">
+                    </div>
+                    <div class="grupo">
+                        <button type="button" onclick="instance.venta();">Calcular</button>
+                        <button type="reset">Cancelar</button>
+                        <button type="submit">Regresar</button>
+                    </div>
+                    <textarea id="" rows="10">
+                        Respuesta aquí...
+                    </textarea>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-wrapper">
+        <p class="copyrigth">Pagina con derechos de autor</p>
+    </footer>
+    <script src="../js/ejercicios.js"></script>
+</body>
+</html>
