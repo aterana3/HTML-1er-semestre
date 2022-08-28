@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ventas</title>
+    <title>Mayor dos numeros</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -59,24 +59,20 @@
         </nav>
     </div>
     <main class="main-wrapper">
-        <h1 class="title">Venta de producto</h1>
+        <h1 class="title">Mayor de dos numeros</h1>
         <div class="wrapper-content">
             <div class="content-box">
                 <form action="../index.html">
                     <div class="grupo">
-                        <label>Costo</label>
-                        <input type="text" id="costo">
+                        <label>Numero 1</label>
+                        <input type="text" id="numero1">
                     </div>
                     <div class="grupo">
-                        <label>Descuento</label>
-                        <input type="text" id="descuento">
+                        <label>Numero 2</label>
+                        <input type="text" id="numero2">
                     </div>
                     <div class="grupo">
-                        <label>Iva (12%)</label>
-                        <input type="checkbox" id="iva">
-                    </div>
-                    <div class="grupo">
-                        <button type="button" onclick="instance.venta();">Calcular</button>
+                        <button type="button" onclick="instance.mayor();">Calcular</button>
                         <button type="reset">Cancelar</button>
                         <button type="submit">Regresar</button>
                     </div>

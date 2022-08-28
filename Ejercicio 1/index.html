@@ -7,37 +7,88 @@
     <link rel="shortcut icon" href="./assets/icono.png" type="image/x-icon">
     <title>Menu principal</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script crossorigin='anonymous' src='https://kit.fontawesome.com/6e829d3ebb.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="th">
+        <div class="dropdown-menu">
+            <i class='fa fa-bars drop-menu' onclick="onMenu()" style='font-size: 28px;width:auto;height:auto;line-height:40px;'></i>
+        </div>
         <div class="logotype">
             <a href="#" class="logo">
               <img src="./assets/LOGO-WEB-AZUL.png" alt="">
             </a>
         </div>
-        <nav class="menu-navegacion">
-            <a class="nav" href="#">Inicio</a>
-            <a class="nav" href="./pages/ventas.html">Ventas</a>
-            <a class="nav" href="./pages/mayor.html">Mayor</a>
-            <a class="nav" href="./pages/semanas.html">Dia semana</a>
-            <a class="nav" href="./pages/bisiesto.html">Año bisiesto</a>
-            <a class="nav" href="./pages/presentar.html">Presentar numeros</a>
-            <a class="nav" href="./pages/sumarpares.html">Sumar pares</a>
-            <a class="nav" href="./pages/sumarcontar.html">Sumar y contar</a>
-            <a class="nav" href="./pages/divisores.html">Divisores</a>
-            <a class="nav" href="./pages/perfecto.html">Perfecto</a>
-        </nav>
     </header>
+    <div class="menu-principal" id="menu">
+        <nav class="navegacion">
+            <ul class="items">
+                <li class="item">
+                    <a class="nav" href="#">Inicio</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="./pages/ventas.html">Ventas</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="./pages/mayor.html">Mayor</a>
+                </li>  
+                <li class="item">
+                    <a class="nav" href="./pages/semanas.html">Dia semana</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="./pages/bisiesto.html">Año bisiesto</a>
+                </li>
+                <li class="item">    
+                    <a class="nav" href="./pages/presentar.html">Presentar numeros</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="./pages/sumarpares.html">Sumar pares</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="./pages/sumarcontar.html">Sumar y contar</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="./pages/divisores.html">Divisores</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="./pages/perfecto.html">Perfecto</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
     <main class="main-wrapper">
-        <h1 class="title">Ejercicios de programacion</h1>
+        <h1 class="title">Inicio</h1>
         <div class="wrapper-content">
+            <div class="content-box">
+                <div class="container-info">
+                    <img src="./assets/codigo.jpg">
+                    <div class="paragraph">
+                        <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Quis viverra nibh cras pulvinar. Eget felis eget nunc lobortis. Malesuada pellentesque elit eget gravida cum sociis. Sed arcu non odio euismod lacinia at quis risus. Congue eu consequat ac felis. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Volutpat maecenas volutpat blandit aliquam etiam erat. Amet venenatis urna cursus eget nunc scelerisque viverra. Elementum eu facilisis sed odio morbi. Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam. Facilisis magna etiam tempor orci. Turpis tincidunt id aliquet risus feugiat. Adipiscing tristique risus nec feugiat in fermentum. Facilisis gravida neque convallis a cras semper auctor neque. Mattis enim ut tellus elementum sagittis vitae et.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer-wrapper">
-        <p class="copyrigth">Pagina con derechos de autor</p>
+        <p class="copyrigth">Tema diseñado por: Anthony</p>
+        <div class="social-media">
+            <a class="icon">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a class="icon">
+                <i class="bx bxl-twitter"></i>
+            </a>
+            <a class="icon">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+        </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
-<script src="js/main.js"></script>
 </html>
