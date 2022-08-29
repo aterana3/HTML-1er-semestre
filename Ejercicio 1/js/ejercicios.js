@@ -120,12 +120,12 @@ class Ejercicios1 {
         numero = parseInt(numero);
         let respuesta = document.getElementById("respuesta")
         respuesta.textContent = `Los siguientes números son divisores de: ${numero}\n`;
-        let i = 0;
-        while(i <= numero) {
-            i += 1
+        let i = 1;
+        while(i < numero) {
             if(numero % i == 0) {
                 respuesta.textContent += `${i.toString()} \n`
             }
+            i += 1
         }
     }
     perfecto() {
